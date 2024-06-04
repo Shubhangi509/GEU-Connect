@@ -1,0 +1,14 @@
+type Question @model {
+  id: ID!
+  text: String!
+  answers: [Answer] @hasMany(fields: ["questionId"])
+    questionId: ID!
+
+}
+
+type Answer @model {
+  id: ID!
+  content: String!
+  question: Question @belongsTo(fields: ["questionId"])
+  questionId: ID!
+}
