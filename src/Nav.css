@@ -1,0 +1,31 @@
+/* HomePage.css */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px; /* Adjust width as needed */
+    background-color: #333;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  a:hover {
+    background-color: #555;
+  }
+  
